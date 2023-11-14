@@ -19,7 +19,7 @@
     background-color: rgba(5,30,52,255);
     background-image:url(../img/sidebar-bg.png);
 }
-.container-sidebar, .row-sidebar-piccola{
+.container-sidebar, .row-sidebar-piccola, .row-sidebar-grande{
     height: 100%;
 }
 
@@ -33,8 +33,22 @@
 .column-sidebar-top-piccola{
     padding-top: 10px;
 }
-.column-sidebar-bottom-piccola{
+.column-sidebar-bottom-piccola, .column-sidebar-bottom-grande{
     padding-bottom: 50px;
+}
+.row-sidebar-grande{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.list-sidebar-grande{
+	padding: 5px 5px;
+	font-size: 14px;
+	list-style: none;
+}
+.list-bottom{
+    list-style: none;
+    
 }
 
 /* SECONDO BLOCCO, DA DIVIDERE A SUA VOLTA IN HEADER E MAIN */
