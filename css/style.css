@@ -9,7 +9,23 @@ body{
 
 .main-block{
     height: 100vh;
-                                    background-color: green;
+    background-color: green;
+}
+/* HEADER */
+header{
+    position: fixed;
+    width: 100%;
+    
+                                    background-color: white;
+}
+.small-logo{
+    width: 63px;
+}
+.big-logo{
+    width: 200px;
+}
+.bgcolor-input{
+    background-color: rgba(229,229,229,255);
 }
 
 /* PRIMA MACROAREE DA DIVIDERE IN DUE BLOCCHI */
@@ -54,41 +70,33 @@ body{
     list-style: none;
     
 }
-
-/* SECONDO BLOCCO, DA DIVIDERE A SUA VOLTA IN HEADER E MAIN */
+/* CENTER */
 .center{
     width: 100vw ;
     overflow-y: auto;
-                                    background-color: red;
-}
-/* HEADER */
-header{
-    position: fixed;
-    width: 100%;
-    
-                                    background-color: white;
-}
-.small-logo{
-    width: 63px;
-}
-.big-logo{
-    width: 200px;
-}
-.bgcolor-input{
-    background-color: rgba(229,229,229,255);
+    background-color: white;
 }
 
-/* MAIN */
-main{
-
-}
 .margin-top-75{
     margin-top: 52px;
     overflow: hidden;
 }
 .bgcolor-pink{
-    background-color: pink;
-                                    height: 60px;
+    background-color: rgba(27,114,232,255);
+    height: 100px;
+                                    
+}
+.plus{
+    padding: 6px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.plus:hover{
+    background-color: white;
+    color: rgba(27,114,232,255);
+}
+.bg-blue{
+    background-color: rgba(22,91,186,255);
 }
 .bgcolor-green{
     background-color: green;
@@ -113,6 +121,11 @@ main{
 
 
 
+
+
+.misure-offcanvas{
+
+}
 /* RESPONSIVE */
 
 
@@ -120,5 +133,8 @@ main{
 @media screen and (min-width: 768px) {
     .sidebar{
         width: 120px;
+    }
+    .misure-offcanvas{
+        width: 2000px;
     }
 }
