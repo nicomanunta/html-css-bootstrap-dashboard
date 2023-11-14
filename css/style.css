@@ -16,12 +16,30 @@
 /* PRIMO BLOCCO, SIDEBAR */
 .sidebar{
     width: 50px;
-
-                                    background-color: aqua;
+    background-color: rgba(5,30,52,255);
+    background-image:url(../img/sidebar-bg.png);
 }
+.container-sidebar, .row-sidebar-piccola{
+    height: 100%;
+}
+
+.row-sidebar-piccola {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 10px 0px;
+	text-align: center;
+}
+.column-sidebar-top-piccola{
+    padding-top: 10px;
+}
+.column-sidebar-bottom-piccola{
+    padding-bottom: 50px;
+}
+
 /* SECONDO BLOCCO, DA DIVIDERE A SUA VOLTA IN HEADER E MAIN */
 .center{
-    width: calc(100vw - 50px);
+    width: 100vw ;
     overflow-y: auto;
                                     background-color: red;
 }
@@ -48,6 +66,7 @@ main{
 }
 .margin-top-75{
     margin-top: 52px;
+    overflow: hidden;
 }
 .bgcolor-pink{
     background-color: pink;
