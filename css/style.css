@@ -32,8 +32,11 @@ header{
     
                                     background-color: white;
 }
-.mobile-logo{
+.small-logo{
     width: 63px;
+}
+.big-logo{
+    width: 200px;
 }
 .bgcolor-input{
     background-color: rgba(229,229,229,255);
