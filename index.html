@@ -10,16 +10,28 @@
 </head>
 <body>
     <header>
-        <div class="header-block"></div>
+        <div class="header-block d-flex align-items-center">
+            <img class="mobile-logo" src="./img/mobile-logo.png" alt="">
+            <div class="input-group flex-nowrap px-3 ">
+                <span class="input-group-text border-0 bgcolor-input" id="addon-wrapping"><i class="fa-solid fa-magnifying-glass" style="color: #2d3135;"></i></span>
+                <input type="text" class="form-control border-0 bgcolor-input" placeholder="Prova a cercare: Lezioni di Laravel" >
+            </div>
+            <div class="d-none d-md-flex ">
+                <i class="fa-solid fa-list px-3" style="color: #5b5858;"></i>
+                <i class="fa-solid fa-circle-question" style="color: #5b5858;"></i>
+                <i class="fa-solid fa-ellipsis-vertical px-3" style="color: #5b5858;"></i>
+            </div>
+            <i class="fa-solid fa-bell pe-2 " style="color: #ff8f00;"></i>
+        </div>
     </header>
    
     <main>
-            <div class="top-block">
-                <div class="top-content">
+            <div class="main-block">
+                <div class="main-content">
                     <div class="sidebar"></div>
                     <div class="center">
-                        <div class="container-fluid height-100 margin-top-75">
-                            <div class="row-">
+                        <div class="container-fluid gx-0 height-100 margin-top-75">
+                            <div class="row">
                                 <div class="col-12">
                                     <div class="content bgcolor-pink"></div>
                                 </div>
