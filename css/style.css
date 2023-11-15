@@ -15,6 +15,7 @@ body{
 header{
     position: fixed;
     width: 100%;
+    z-index: 3;
     
                                     background-color: white;
 }
@@ -36,6 +37,7 @@ header{
 /* PRIMO BLOCCO, SIDEBAR */
 .sidebar{
     width: 50px;
+    overflow: hidden;
     background-color: rgba(5,30,52,255);
     background-image:url(../img/sidebar-bg.png);
 }
@@ -65,6 +67,11 @@ header{
 	font-size: 14px;
 	list-style: none;
 }
+.list-sidebar-grande:hover, .list-bottom:hover {
+    background-color: rgba(255, 255, 255, 0.433);
+    cursor: pointer;
+    filter: invert(0%);
+}
 .list-bottom{
     list-style: none;
     
@@ -73,17 +80,15 @@ header{
 .center{
     width: 100vw ;
     overflow-y: auto;
-    background-color: white;
+    background-color: rgba(248,249,250,255);
 }
 
 .margin-top-75{
     margin-top: 52px;
     overflow: hidden;
 }
-.bgcolor-pink{
-    background-color: rgba(27,114,232,255);
-    height: 100px;
-                                    
+.bgcolor-azzurro{
+    background-color: rgba(27,114,232,255);                           
 }
 .plus{
     padding: 6px 10px;
@@ -97,11 +102,15 @@ header{
 .bg-blue{
     background-color: rgba(22,91,186,255);
 }
-.bgcolor-green{
-    background-color: green;
-    height: 500px;
-
+/* PROSSIME CLASSI */
+.dimensioni-img{
+    width: 25px;
+    
 }
+td{
+    vertical-align: middle;
+}
+/* FAQ */
 .bgcolor-brown{
     background-color: brown;
     height: 200px;
@@ -123,7 +132,7 @@ header{
 
 
 .misure-offcanvas{
-
+    width: 100%;
 }
 /* RESPONSIVE */
 

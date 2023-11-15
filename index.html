@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
+    <!-- HEADER -->
     <header>
         <div class="header-block d-flex align-items-center">
             <img class="small-logo d-md-none" src="./img/mobile-logo.png" alt="">
@@ -95,22 +96,104 @@
                     </div>
                     <!-- CENTER -->
                     <div class="center">
-                        <div class="container-fluid gx-0 height-100 margin-top-75">
+                        <div class="container-fluid gx-0  margin-top-75">
                             <div class="row">
-                                
-                                <div class="col-12">
-                                    <div class="content text-white bgcolor-pink pt-4 ">
-                                        <span class="pe-3">Nuovo Studente</span> <span class="plus" data-bs-toggle="offcanvas" href="#offcanvasExample">&plus;
-                                        </span>
-                                        <div class="mt-3">
-                                            <span class="fs-3 fw-bold">Boolean</span>
-                                            <span class="badge bg-blue ">Piano Blaze</span>
+                                <!-- PROSSIME CLASSI -->
+                                <div class="col-12 ">
+                                    <div class="content d-md-flex justify-content-between text-white bgcolor-azzurro pt-4 ps-3 pe-3 ">
+                                        <div class="order-md-1">
+                                            <span class="pe-3">Nuovo Studente</span> <span class="plus" data-bs-toggle="offcanvas" href="#offcanvasExample">&plus;
+                                            </span>
 
+                                        </div>
+                                        <div class="mt-3 mt-md-0">
+                                            <span class="fs-3 fw-bold">Boolean</span>
+                                            <button class="btn btn-primary badge bg-blue" type="submit">Piano Blaze</button>
+                                            <div>
+                                                <button class="btn btn-primary badge bg-blue" type="submit">3 app</button>
+                                                <span class="">&#187;</span>
+                                                <span class="badge bg-blue d-lg-none ">&plus;</span>
+                                                <button class="btn btn-primary badge bg-blue d-none d-lg-inline" type="submit">Boolean mobile app</button>
+                                                <button class="btn btn-primary badge bg-blue d-none d-lg-inline" type="submit">Boolean web app</button>
+                                                <button class="btn btn-primary badge bg-blue d-none d-lg-inline" type="submit">Boolean blog app</button>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="my-3 my-md-0">Studenti online negli ultimi 30 minuti</div>
+                                            <div class="fs-1 pb-3 pb-md-0">125</div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-8 ">
-                                    <div class="content mb-5 bgcolor-green"></div>
+                                <div class="col-12 col-lg-8 ">
+                                    <div class="content mb-5  p-4 ">
+                                        <div class="card">
+                                            <h5 class="card-header">Prossime classi</h5>
+                                            <div class="card-body">
+                                                <table class="table">
+                                                    <thead>
+                                                      <tr>
+                                                        <td scope="col">Nome</td>
+                                                        <td scope="col">Stato</td>
+                                                        <td scope="col">Azioni</td>
+                                                        
+                                                      </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                      <tr>
+                                                        <td scope="row"><img class="dimensioni-img" src="./img/class-avatar.jpg" alt=""> Classe 75</td>
+                                                        <td><span class="badge text-bg-success">Done</span></td>
+                                                        <td><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button> 
+                                                        <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td scope="row"><img class="dimensioni-img" src="./img/class-avatar.jpg" alt=""> Classe 76</td>
+                                                        <td><span class="badge text-bg-success">Done</span></td>
+                                                        <td><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button> 
+                                                        <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td scope="row"><img class="dimensioni-img" src="./img/class-avatar.jpg" alt=""> Classe 77</td>
+                                                        <td><span class="badge text-white text-bg-warning">Process</span></td>
+                                                        <td><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button> 
+                                                        <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td scope="row"><img class="dimensioni-img" src="./img/class-avatar.jpg" alt=""> Classe 78</td>
+                                                        <td><span class="badge text-bg-success">Done</span></td>
+                                                        <td><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button> 
+                                                        <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td scope="row"><img class="dimensioni-img" src="./img/class-avatar.jpg" alt=""> Classe 79</td>
+                                                        <td><span class="badge text-bg-danger">Failed</span></td>
+                                                        <td><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button> 
+                                                        <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td scope="row"><img class="dimensioni-img" src="./img/class-avatar.jpg" alt=""> Classe 80</td>
+                                                        <td><span class="badge text-bg-success">Done</span></td>
+                                                        <td><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button> 
+                                                        <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td scope="row"><img class="dimensioni-img" src="./img/class-avatar.jpg" alt=""> Classe 81</td>
+                                                        <td><span class="badge text-bg-danger">Failed</span></td>
+                                                        <td><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button> 
+                                                        <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td scope="row"><img class="dimensioni-img" src="./img/class-avatar.jpg" alt=""> Classe 82</td>
+                                                        <td><span class="badge text-bg-success">Done</span></td>
+                                                        <td><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button> 
+                                                        <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
+                                                      </tr>
+                                                      
+                                                    </tbody>
+                                                  </table>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <!-- FAQ -->
                                     <div class="content bgcolor-brown"></div>
                                 </div>
                                 <div class="col-12 col-md-4 ">
@@ -127,7 +210,7 @@
 
 
     <div class="offcanvas offcanvas-end misure-offcanvas" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-        <div class="offcanvas-header">
+        <div class="offcanvas-header misure-offcanvas">
           <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
