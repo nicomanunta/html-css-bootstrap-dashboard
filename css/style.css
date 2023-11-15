@@ -111,16 +111,14 @@ td{
     vertical-align: middle;
 }
 /* FAQ */
-.bgcolor-brown{
-    background-color: brown;
-    height: 200px;
 
-}
+/* TODO */
 .bgcolor-yellow{
     background-color: yellow;
     height: 200px;
 
 }
+/* GRAFICO */
 .bgcolor-orange{
     background-color: orange;
     height: 500px;
