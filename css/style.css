@@ -111,7 +111,17 @@ td{
     vertical-align: middle;
 }
 
-
+.font-size{
+    font-size: 12px;
+}
+.padding-right{
+    padding-right: 20px;
+}
+@media screen and (min-width: 768px){
+    .padding-right{
+        padding-right: 100px;
+    }
+}
 
 /* OFFCANVAS */
 .misure-offcanvas{
