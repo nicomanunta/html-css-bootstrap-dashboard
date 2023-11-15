@@ -110,26 +110,10 @@ header{
 td{
     vertical-align: middle;
 }
-/* FAQ */
-
-/* TODO */
-.bgcolor-yellow{
-    background-color: yellow;
-    height: 200px;
-
-}
-
-/* GRAFICO */
-.bgcolor-orange{
-    background-color: orange;
-    height: 500px;
-
-}
 
 
 
-
-
+/* OFFCANVAS */
 .misure-offcanvas{
     width: 100%;
 }
